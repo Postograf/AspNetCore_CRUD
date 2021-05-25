@@ -62,7 +62,7 @@ namespace CRUD.Controllers
             {
                 db.Entry(editedBody).CurrentValues.SetValues(body);
                 db.SaveChanges();
-                return Ok(body);
+                return Ok(db.Bodies.ToList());
             }
             return BadRequest(ModelState);
         }
@@ -76,7 +76,7 @@ namespace CRUD.Controllers
                 db.Bodies.Remove(body);
                 db.SaveChanges();
             }
-            return Ok(body);
+            return Ok(db.Bodies.ToList());
         }
     }
 }

@@ -7291,11 +7291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My directory\\Документы\\ОПБД\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "D:\\My directory\\Документы\\ОПБД\\AspNetCore_CRUD\\AspNetCore_CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "D:\\My directory\\Документы\\ОПБД\\CRUD\\CRUD.csproj",
+      "projectPath": "D:\\My directory\\Документы\\ОПБД\\AspNetCore_CRUD\\AspNetCore_CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\My directory\\Документы\\ОПБД\\CRUD\\obj\\",
+      "outputPath": "D:\\My directory\\Документы\\ОПБД\\AspNetCore_CRUD\\AspNetCore_CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -49,7 +49,7 @@ namespace CRUD.Controllers
             {
                 db.Engines.Add(engine);
                 db.SaveChanges();
-                return Ok(engine);
+                return Ok(db.Engines.ToList());
             }
             return BadRequest(ModelState);
         }
@@ -63,7 +63,7 @@ namespace CRUD.Controllers
             {
                 db.Entry(editedEngine).CurrentValues.SetValues(engine);
                 db.SaveChanges();
-                return Ok(engine);
+                return Ok(db.Engines.ToList());
             }
             return BadRequest(ModelState);
         }
@@ -77,7 +77,7 @@ namespace CRUD.Controllers
                 db.Engines.Remove(Engine);
                 db.SaveChanges();
             }
-            return Ok(Engine);
+            return Ok(db.Engines.ToList());
         }
     }
 }

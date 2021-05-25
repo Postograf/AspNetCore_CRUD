@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kU89Gc041gUrc5FerzeHczXzSv51eYOlklQz5jGw1MI9nEqDddJLcajX2OLGRC8EJES4KHHSkFtjI6M5kJwmBg==",
+  "dgSpecHash": "8JCs6JWfciMdJqQYsxBr00yknGCN5pE1B1wTQT2I5MWjHTr5vyMaLNG9qSk4aU8yLvPauQBgbkVlK5rcfqi/PQ==",
   "success": true,
-  "projectFilePath": "D:\\My directory\\Документы\\ОПБД\\CRUD\\CRUD.csproj",
+  "projectFilePath": "D:\\My directory\\Документы\\ОПБД\\AspNetCore_CRUD\\AspNetCore_CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
