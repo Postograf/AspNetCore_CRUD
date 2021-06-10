@@ -13,7 +13,6 @@ namespace CRUD.Data
         public ModelsContext(DbContextOptions<ModelsContext> options)
             : base(options)
         {
-            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
